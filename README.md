@@ -75,3 +75,9 @@ make airdropandapprove  # Airdrop & approve test tokens on L1
 make bridgetol2         # Bridge tokens to L2 (wait for confirmation and receiving token on l2 before proceeding)
 make bridgetol1         # Bridge back to L1 (wait for finalization)
 ```
+
+## For testing the l2 token 
+
+```bash
+forge test
+```
